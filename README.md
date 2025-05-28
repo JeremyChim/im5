@@ -15,3 +15,6 @@
 
 #### 推送本地main分支到远程仓库
 `git push -u origin main`
+
+#### 仓库改名了，更改仓库url为https://github.com/JeremyChim/D2FUN.git
+`git remote set-url origin https://github.com/JeremyChim/D2FUN.git`
