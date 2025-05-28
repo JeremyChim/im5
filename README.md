@@ -1,10 +1,17 @@
 # Py
 
-#### requirements
+#### 导出库txt
 `pip freeze > requirements.txt`
 
 
-#### pipreqs
+#### 导出项目库txt
 `pip install pipreqs`
 
 `pipreqs /path/to/project`
+
+# git
+#### 克隆仓库
+`git clone https://github.com/JeremyChim/Py.git`
+
+#### 推送本地main分支到远程仓库
+`git push -u origin main`
