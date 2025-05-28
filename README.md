@@ -24,6 +24,10 @@
 
 `git remote set-url origin https://github.com/JeremyChim/D2FUN.git`
 
+#### 切换项目远程地址为 SSH 协议 （将 your-username 和 your-repo 替换为实际的 GitHub 用户名和仓库名）
+`git remote set-url origin git@github.com:your-username/your-repo.git`
+
+
 #### 配置ssh
 ```bash
 # 是否已存在 SSH 密钥
