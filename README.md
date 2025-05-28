@@ -1,48 +1,54 @@
 # Py
 
-#### 导出库txt
+```bash
+# 导出库
+pip freeze > requirements.txt
 
-`pip freeze > requirements.txt`
-
-#### 导出项目库txt
-
-`pip install pipreqs`
-
-`pipreqs /path/to/project`
+# 导出项目库
+pip install pipreqs
+pipreqs /path/to/project
+```
 
 # git
 
-#### 克隆仓库
+```bash
+# 全局设置
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
 
-`git clone https://github.com/JeremyChim/Py.git`
+# 仅当前仓库
+git config user.name "Your Name"
+git config user.email "you@example.com"
 
-#### 推送本地main分支到远程仓库
+# 克隆
+git clone https://github.com/JeremyChim/Py.git
 
-`git push -u origin main`
+# 暂存
+git add .
 
-#### 检查提交状态
+# 提交
+git commmit -m "提交内容"
 
-`git status`
+# 检查
+git status
 
-#### 撤销提交
+# 推送
+git push -u origin main
 
-`git revert <提交哈希值>`
+# 撤销暂存
+git reset .
 
-#### 撤销暂存区的文件
+# 更改仓库url
+git remote set-url origin https://github.com/JeremyChim/D2FUN.git
 
-`git reset [文件名]`
+# 切换项目远程地址为 SSH 协议
+# 将 your-username 和 your-repo 替换为实际的 GitHub 用户名和仓库名
+git remote set-url origin git@github.com:your-username/your-repo.git
 
 
+```
 
-#### 仓库改名了，更改仓库url为 .../JeremyChim/D2FUN.git
-
-`git remote set-url origin https://github.com/JeremyChim/D2FUN.git`
-
-#### 切换项目远程地址为 SSH 协议 （将 your-username 和 your-repo 替换为实际的 GitHub 用户名和仓库名）
-
-`git remote set-url origin git@github.com:your-username/your-repo.git`
-
-#### 配置ssh
+# 配置ssh
 
 ```bash
 # 是否已存在 SSH 密钥
