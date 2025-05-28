@@ -20,15 +20,30 @@
 
 `git push -u origin main`
 
+#### 检查提交状态
+
+`git status`
+
+#### 撤销提交
+
+`git revert <提交哈希值>`
+
+#### 撤销暂存区的文件
+
+`git reset [文件名]`
+
+
+
 #### 仓库改名了，更改仓库url为 .../JeremyChim/D2FUN.git
 
 `git remote set-url origin https://github.com/JeremyChim/D2FUN.git`
 
 #### 切换项目远程地址为 SSH 协议 （将 your-username 和 your-repo 替换为实际的 GitHub 用户名和仓库名）
+
 `git remote set-url origin git@github.com:your-username/your-repo.git`
 
-
 #### 配置ssh
+
 ```bash
 # 是否已存在 SSH 密钥
 ls -al ~/.ssh
@@ -55,5 +70,3 @@ ssh -T git@github.com
 # Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 # Hi jer888chim! You've successfully authenticated, but GitHub does not provide shell access.
 ```
-
-
