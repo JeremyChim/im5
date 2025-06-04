@@ -12,6 +12,14 @@ pipreqs /path/to/project
 # Markdown
 
 ```
+# Github Readme
+<h1 align="center">Python_YYDS</h1>
+<p align="center">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Auth-Jeremy-brightgreen">
+    <img alt="Static Badge" src="https://img.shields.io/badge/Version-v1.1.0-blue">
+    <img alt="Static Badge" src="https://img.shields.io/badge/ILovePython-pink">
+</p>
+
 # 换页
 <div style="page-break-after: always;"></div>
 ```
