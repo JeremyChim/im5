@@ -12,7 +12,7 @@ pipreqs /path/to/project
 # Markdown
 
 ```
-# 换行
+# 换页
 <div style="page-break-after: always;"></div>
 ```
 
