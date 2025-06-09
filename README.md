@@ -6,7 +6,7 @@ pip freeze > requirements.txt
 
 # 导出项目库
 pip install pipreqs
-pipreqs /path/to/project
+pipreqs ./
 ```
 
 # Markdown
