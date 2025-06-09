@@ -1,12 +1,44 @@
 # Python
 
 ```bash
-# 导出库
+# 导出导入库
 pip freeze > requirements.txt
+pip install -r requirements.txt
 
 # 导出项目库
 pip install pipreqs
 pipreqs ./
+
+# pyqt5 pyqt6编译
+pyuic5.exe untitled.ui -o untitled.py
+pyuic6.exe untitled.ui -o untitled.py
+```
+
+# PyCharm外部工具
+
+```
+# designer
+名字：designer
+程序：C:\Users\dongzhou\AppData\Local\Programs\Python\Python38\Lib\site-packages\QtDesigner\designer.exe
+工具目录：$FileDir$
+
+# pyuic5
+名字：pyuic5
+程序：C:\Users\dongzhou\AppData\Local\Programs\Python\Python38\python.exe
+实参：-m PyQt5.uic.pyuic  $FileName$ -o $FileNameWithoutExtension$.py
+工具目录：$FileDir$
+
+# pyuic6
+名字：pyuic6
+程序：C:\Users\dongzhou\AppData\Local\Programs\Python\Python38\python.exe
+实参：-m PyQt6.uic.pyuic  $FileName$ -o $FileNameWithoutExtension$.py
+工具目录：$FileDir$
+
+# pyinstaller
+名字：pyinstaller
+程序：C:\Users\dongzhou\AppData\Local\Programs\Python\Python312\python.exe
+实参：pyinstaller -F $FileName$
+工具目录：$ProjectFileDir$
 ```
 
 # Markdown
