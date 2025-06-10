@@ -16,14 +16,14 @@ pyuic6.exe untitled.ui -o untitled.py
 # pyinstaller 独立exe（启动慢）
 pyinstaller -F app.py
 pyinstaller -F -w app.py
-pyinstaller -F -i app.py app.ico
-pyinstaller -F -i -w app.py app.ico
+pyinstaller -F -i app.ico app.py 
+pyinstaller -F -i -w app.ico app.py 
 
 # pyinstaller 一个文件exe（启动快）
 pyinstaller -D app.py
 pyinstaller -D -w app.py
-pyinstaller -D -i app.py app.ico
-pyinstaller -D -i -w app.py app.ico
+pyinstaller -D -i app.ico app.py
+pyinstaller -D -i -w app.ico app.py 
 ```
 
 # PyCharm外部工具
