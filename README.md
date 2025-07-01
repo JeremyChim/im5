@@ -17,7 +17,7 @@ pyuic6.exe untitled.ui -o untitled.py
 pyinstaller -F app.py
 pyinstaller -F -w app.py
 pyinstaller -F -i app.ico app.py 
-pyinstaller -F -i -w app.ico app.py 
+pyinstaller -F -w -i main.ico main.py
 
 # pyinstaller 一个文件exe（启动快）
 pyinstaller -D app.py
