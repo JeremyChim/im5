@@ -1,6 +1,7 @@
 # CMD
 ```bash
 cd %~dp0
+cd /d "%~dp0"
 ```
 
 # Python
@@ -140,4 +141,5 @@ ssh -T git@github.com
 # Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 # Hi jer888chim! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+
 
