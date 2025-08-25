@@ -52,9 +52,19 @@ pyinstaller -D -i -w app.ico app.py
 实参：-m PyQt6.uic.pyuic  $FileName$ -o $FileNameWithoutExtension$.py
 工具目录：$FileDir$
 
-名字：pyinstaller EXE
+名字：pyinstaller -F
 程序：C:\Users\dongzhou\AppData\Local\Programs\Python\Python312\python.exe
 实参：-F $FileNameWithoutExtension$.py
+工具目录：$FileDir$
+
+名字：pyinstaller -F -w
+程序：C:\Users\dongzhou\AppData\Local\Programs\Python\Python312\python.exe
+实参：-F -w $FileNameWithoutExtension$.py
+工具目录：$FileDir$
+
+名字：pyinstaller -F -w -i
+程序：C:\Users\dongzhou\AppData\Local\Programs\Python\Python312\python.exe
+实参：-F -w -i $FileNameWithoutExtension$.ico $FileNameWithoutExtension$.py
 工具目录：$FileDir$
 ```
 
@@ -140,6 +150,7 @@ ssh -T git@github.com
 # Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 # Hi jer888chim! You've successfully authenticated, but GitHub does not provide shell access.
 ```
+
 
 
 
