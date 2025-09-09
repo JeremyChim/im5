@@ -149,7 +149,21 @@ ssh -T git@github.com
 # 成功信任后，你应该会看到类似这样的确认信息：
 # Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
 # Hi jer888chim! You've successfully authenticated, but GitHub does not provide shell access.
+
+# 如果22端口连不上，在C:\Users\dongzhou\.ssh里创建一个config里面写：
+Host github.com
+User jeremychim@outlook.com
+Hostname ssh.github.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa
+Port 443
+
+# 保存后，再次测试连接，输入yes
+ssh -T git@github.com
+> 教程：https://www.cnblogs.com/xango/p/18910105
+
 ```
+
 
 
 
